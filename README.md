@@ -1,5 +1,5 @@
 # AI-planet-hackathon
-Hey! this is Tanisha Lalwani 👋
+Hey! I am Tanisha Lalwani 👋
 This is my submission for the AI Planet Hackathon.
 
 I’ve submitted the solution as part of the challenge – hope you like it! 🚀
