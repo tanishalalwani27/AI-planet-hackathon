@@ -57,6 +57,10 @@ graph TD
     H --> I(Predict on Test Set)
     I --> J(Generate submission.csv)
     J --> K[End]
+
+
+
+
 ## How to Run the Notebook
 
 1.  **Download Files**: Ensure you have `Train_Data.csv`, `Test_Data.csv`, and `submission_notebook.ipynb`.
@@ -66,6 +70,10 @@ graph TD
 
 This will train the model, evaluate it, and generate `submission.csv` in your Colab session.
 
+
+
+
 ## Submission Summary
 
-This submission presents a machine learning model to predict whether an individual is a 'Senior' (65+) or 'Adult' (under 65) based on the National Health and Nutrition Examination Survey (NHANES) dataset. The process involved robust data preprocessing, including imputation of missing values and one-hot encoding of categorical features. An XGBoost Classifier was trained with hyperparameter tuning, demonstrating strong internal validation metrics (Accuracy, Precision, Recall, F1-Score, and ROC AUC all at 1.0000). The `submission_.csv` file contains the model's predictions for the test set, formatted as required for the hackathon.
+This submission presents a machine 
+learning model to predict whether an individual is a 'Senior' (65+) or 'Adult' (under 65) based on the National Health and Nutrition Examination Survey (NHANES) dataset. The process involved robust data preprocessing, including imputation of missing values and one-hot encoding of categorical features. An XGBoost Classifier was trained with hyperparameter tuning, demonstrating strong internal validation metrics (Accuracy, Precision, Recall, F1-Score, and ROC AUC all at 1.0000). The `submission_.csv` file contains the model's predictions for the test set, formatted as required for the hackathon.
